@@ -85,10 +85,7 @@ nav a:hover,nav a:focus {
 ul li{
     list-style-type: none;
 }
-[href*=".com"] img{
-    width: 50x;
-    height: 50px;
-}
+
 
 h1,h2,h3,h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -228,13 +225,14 @@ section:last-of-type{
 
 #testimonials {
     width: 100%;
-    background-image:linear-gradient(to right,#ffbb52,#ffbb69,#ffbb80);
+    background-image:linear-gradient(to right,#442e1c,#442f1e,#441f1c);
     display: inline-flex;
     
 }
 .testimonial p {
     line-height: 34px;
     margin-top: 20px;
+    color: white;
 }
 
 #testimonials .block-heading h1
@@ -271,6 +269,11 @@ object{
     margin-block: auto;
     margin-inline: auto;
 }
+[href*=".com"] img{
+    width: 50px;
+    height: 50px;
+}
+
 @media (max-width: 500px) {
     *{
         word-break: break-all;
@@ -340,3 +343,53 @@ object{
       transform: scale3d(1, 1, 1);
     }
   }
+
+/*cv style*/
+.cv-img{
+    width: 10em;
+    height: 10em;
+    margin-left:20ox;
+    margin-inline: auto;
+}
+.contactme{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 700;
+    text-decoration: double;
+    text-align: center;
+}
+.langues{
+    margin-inline: auto;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.langues h2{
+    color: #000;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:500 ;
+}
+[type="button"]{
+    width: 7em;
+}
+.skills table{
+    width: 15em;
+    margin-inline: auto;
+}
+.cvaside{
+    background-color: rgb(104, 96, 96);
+}
+.cvmain{
+    background-color: rgb(177, 169, 169);
+}
+.cvmain{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: double;
+    text-align: center;
+}
+.nassim{background-color: red;}
+.fsr{background-color: white;}
+.ofppt{background-color: red;}

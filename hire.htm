@@ -1,9 +1,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
+	<title>Contact US</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="pf.css">
+    <style>
+      body{
+        background-image:url(images/mona-eendra-vC8wj_Kphak-unsplash.jpg) ;
+      }
+    </style>
 
 </head>
 <body>
@@ -22,59 +28,81 @@
           </nav>
         </div>
       </header>
-<div class="container-fluid second bg-dark"> 
-            <div class="row">
-            <asidde class="col-sm-4">
-                <img src="DSC_0595 copy.jpg" style="width: 10em;height: 10em;position: relative;right: 20px;" class=" mx-auto d-block">
-                <ul>
-                    <li class="listinfo"> +212 7 62 76 96 45 </li>
-                    <li class="listinfo"><a href="mailto:eljazouliyounesse44@gmail.com" class="btn btn-primary">Email me</a> </li>
-                    <li><a href="http://www.linkedin.com" target="_blank"><img src="images/Linkedin-logo.png"></a></li>
-                    <li><a href="http://www.youtube.com" target="_blank"><img src="images/502px-Logo_of_YouTube_(2015-2017).svg.png"></a></li>
-                    <li><a href="http://www.github.com" target="_blank"><img src="images/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320-1.png"></a></li>
-                </ul>
-                <div>Single</div>
-                </div>Marocaine</div>
-                <div class="langues">
-                    <ul>
-                        <li>English : Advanced</li>
-                        <li>Arabe : Native</li>
-                        <li>French : Fluent</li>
-                    </ul>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 cvaside">
+            <div class="contactme">
+              <img src="DSC_0595.jpg" class="img-thumbnail cv-img">
+              <div class="nom">Eljazouli</div>
+              <div class="prenom">Youness</div>
+              <div class="tele">Call : +212762769645</div>
+              <div class="mail">Email: eljazouliyounesse@gmail.com</div>
+            </div>
+            <div class="langues">
+              <input type="button" class="eng btn btn-primary" oncklick="english()" value="ENGLISH"> <h2 id="engafficher">fluent</h2>
+              <input type="button" class="ar btn btn-primary" oncklick="arab()" value="ARABIC"><h2 id="arafficher">Native</h2>
+              <input type="button" class="fr btn btn-primary" oncklick="french()" value="FRENCH"> <h2 id="frafficher">advanced</h2>
+            </div>
+            <div class="skills">
+              <h1 align="center">Skills</h1>
+              <table class="table table-bordered table-responsive table-dark table-hover">
+                <tr><td>Photoshop</td><td>Advanced</td></tr>
+                <tr><td>Microsoft office</td><td>Advanced</td></tr>
+                <tr><td>Wordpress</td><td>Profssional</td></tr>
+                <tr><td>Adobe Illustrator</td><td>Advanced</td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-sm-8 cvmain">
+            <div class="aboutme">
+              <h1>About</h1>
+              <p>If you are looking for someone who can handle your tech problem you are in the right place,I am able to handle multipe tasks on a daily basic</p>
+              <p>I am always energetic and eager to learn new skills wich is needed in this field , i work with the team to provide the right solutions for our customers</p>
+              <p>In conclusion, I am motivated reliable and organised and a great chance for your company for us to grow together </p>
+            </div>
+            <div class="formation">
+              <h1>Formation: </h1>
+              <div class="row">
+                <div class="col-sm-4 nassim">
+                  <p>2014-2017</p>
+                  <div>Lycéé Annasime Temara</div>
+                  <div>Baccaleareat en SVT</div>
                 </div>
-            </asidde>
-            <main class="col-sm-8">
-                <div class="formation">
-                    <h1>Formation</h1>
-                    <table>
-                        <tr>
-                            <th>Diplomat</th>
-                            <th>Duration</th>
-                            <th>Name of institution</th>
-                            <th>field of study</th>
-                        </tr>
-                        <tr>
-                            <td>Baccalaureat</td>
-                            <td>2014-2017</td>
-                            <td>Nassim High School</td>
-                            <td>Life & earth Sience</td>
-                        </tr>
-                        <tr>
-                            <td>Licence</td>
-                            <td>2017-2020</td>
-                            <td>Faculty of science Rabat</td>
-                            <td>Life science option : Biology and health</td>
-                        </tr>
-                        <tr>
-                            <td>Specialized technecian</td>
-                            <td>2021-now</td>
-                            <td>OFPPT Temara</td>
-                            <td>Devolepper</td>
-                        </tr>
-                    </table>
+                <div class="col-sm-4 fsr">
+                  <p>2017-2020</p>
+                  <div>Université Mohamed V , Faculty of Science Rabat</div>
+                  <div>Licence fondamentale en SVI</div>
                 </div>
-            </main>
+                <div class="col-sm-4 ofppt">
+                  <p>2021-now</p>
+                  <div>OFPPT temara</div>
+                  <div>TS en Developement</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      <footer class="row">
+        <div class="col-sm-6 about p-5">
+            <h3 class="h3">About me</h3>
+            <p>I am young developer from Temara,Morocco</p>
+            <p>I create full working websites for you</p>
+            <p>Contact us for more details</p>
+        </div>
+        <div class="col-sm-6 p-5">
+            <p class="h4">Lets get SOCIAL</p>
+            <ul>
+            <li class="listinfo"><a href="mailto:eljazouliyounesse44@gmail.com" class="btn btn-primary">Email me</a> </li>
+            <li><a href="http://www.linkedin.com" target="_blank"><img src="images/Linkedin-logo.png"></a></li>
+            <li><a href="http://www.youtube.com" class="bg-light" target="_blank"><img src="images/502px-Logo_of_YouTube_(2015-2017).svg.png"></a></li>
+            <li><a href="http://www.github.com" target="_blank"><img src="images/DataLab_-_Chapitre_0_-_Fabriquer_sa_station_de_mesure_connect_e_github-logo-640x320-1.png"></a></li>
+            </ul>
+            <p class="h4">Stay updated with our latest trends</p>
+            <p class="h6 p-5">Copyright ©2022 All rights reserved </p>
+        </div>
+    </footer>
+</div>
+<script src="myScript1.js"></script>
+
 </body>
-</html>
