@@ -46,6 +46,7 @@ nav a:hover,nav a:focus {
     width: 100%;
     padding:0;
     margin-right: 0;
+    overflow-x: hidden;
 
 }
 
@@ -278,6 +279,7 @@ object{
     *{
         word-break: break-all;
         width: 100%;
+        overflow-x: hidden;
     }
     .cont {
       text-align: center;
